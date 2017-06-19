@@ -1,0 +1,77 @@
+$tudo: 100%
+$meio: 50%
+$terco: 33%
+
+$lilaz: #C377E0
+$roxo: #9c27b0
+$cinza: #757575
+
+html, body
+	height: $tudo
+	margin: 0
+
+header
+	width: $tudo
+
+button
+	float: right
+	height: 60px
+	width: 60px
+	background-color: $lilaz
+	border-radius: $meio
+	border-color: #roxo
+
+.pelicula
+	height: $tudo
+	width: $tudo
+	position: absolute
+	background-color: $cinza
+	opacity: .4
+
+.displayOff
+	display: none
+
+.displayOn
+	display: initial
+
+table
+	width: $tudo
+	height: $tudo
+
+a
+	position: relative
+	color: rgba(255,255,255,1)
+	text-decoration: none
+	background-color: rgba(219,87,5,1)
+	font-weight: 700
+	font-size: 3em
+	padding: 4px
+	-webkit-border-radius: 8px
+	-moz-border-radius: 8px
+	border-radius: 8px
+	-webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7)
+	-moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7)
+	box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7)
+	margin: 0 auto
+	width: 120px
+	height: 80%
+	-webkit-transition: all .1s ease
+	-moz-transition: all .1s ease
+	-ms-transition: all .1s ease
+	-o-transition: all .1s ease
+	transition: all .1s ease
+
+a:active 
+	-webkit-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9)
+	-moz-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9)
+	box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9)
+	position: relative
+	top: 6px
+
+.centralizado
+	display: -webkit-flex
+	display: flex
+	-webkit-align-items: center
+	align-items: center
+	-webkit-justify-content: center
+	justify-content: center
