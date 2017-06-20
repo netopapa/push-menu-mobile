@@ -15,17 +15,6 @@ img {
   margin: 0 auto;
   height: 800px; }
 
-header {
-  width: 100%; }
-
-button {
-  float: right;
-  height: 60px;
-  width: 60px;
-  background-color: #C377E0;
-  border-radius: 50%;
-  border-color: #9c27b0; }
-
 .canvas{
   z-index: 10;
   position: absolute;
@@ -137,5 +126,13 @@ a:active {
     top: 0;
     left: 0;
     transform: rotateZ(0);
+  }
+
+  .canvas{
+    display: none;
+  }
+
+  img{
+    display: none;
   }
 }
