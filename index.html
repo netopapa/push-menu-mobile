@@ -16,18 +16,27 @@
 	<div class="pelicula">
 		<table>
 			<tr>
-				<td><a class="centralizado" href="javascript:void(0)"><i class="fa fa-home" aria-hidden="true"></i></a></td>
-				<td><a class="centralizado" href="javascript:void(0)"><i class="fa fa-users" aria-hidden="true"></i></a></td>
+				<td><button class="centralizado" ><i class="fa fa-home" aria-hidden="true"></i></button></td>
+				<td><button class="centralizado" ><i class="fa fa-users" aria-hidden="true"></i></button></td>
 			</tr>
 			<tr>
-				<td><a class="centralizado" href="javascript:void(0)"><i class="fa fa-envelope" aria-hidden="true"></i></a></td>
-				<td><a class="centralizado" href="javascript:void(0)"><i class="fa fa-heart" aria-hidden="true"></i></a></td>
+				<td><button class="centralizado" ><i class="fa fa-envelope" aria-hidden="true"></i></button></td>
+				<td><button class="centralizado" ><i class="fa fa-heart" aria-hidden="true"></i></button></td>
 			</tr>
 			<tr>
-				<td><a class="centralizado" href="javascript:void(0)"><i class="fa fa-phone" aria-hidden="true"></i></a></td>
-				<td><a class="centralizado" href="javascript:void(0)"><i class="fa fa-times-circle" aria-hidden="true"></i></a></td>
+				<td><button class="centralizado" ><i class="fa fa-phone" aria-hidden="true"></i></button></td>
+				<td><button id="exit" class="centralizado" ><i class="fa fa-times-circle" aria-hidden="true"></i></button></td>
 			</tr>
 		</table>
 	</div>
 </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+	var btn = $("#exit");
+	btn.click( function(){
+		window.history.back()
+	});
+</script>
+
 </html>
