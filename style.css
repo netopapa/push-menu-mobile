@@ -4,7 +4,8 @@ html, body {
 
 body {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  background-color: #bdd5ef; }
 
 img {
   margin: 0 auto;
