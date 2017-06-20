@@ -7,7 +7,7 @@
 <ul>
 	<li>Acesse a <a href="https://netopapa.github.io/push-menu-mobile">DEMO</a>.</li>
 	<li>Clique com o direito do mouse sobre quaquer parte da tela a e vá em especionar elemento.</li>
-	<li>Clique no icone do mobile no canto esquerdo superior (ao lado da lupa).</li>
+	<li>Clique no icone que tem um mobile e um tablet no canto esquerdo superior da tela.</li>
 	<li>selecione o modelo do device.</li>
 </ul>
 
