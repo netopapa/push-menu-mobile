@@ -2,6 +2,14 @@ html, body {
   height: 100%;
   margin: 0; }
 
+body {
+  display: flex;
+  justify-content: center; }
+
+img {
+  margin: 0 auto;
+  height: 800px; }
+
 header {
   width: 100%; }
 
@@ -11,14 +19,17 @@ button {
   width: 60px;
   background-color: #C377E0;
   border-radius: 50%;
-  border-color: #roxo; }
+  border-color: #9c27b0; }
 
 .pelicula {
-  height: 100%;
-  width: 100%;
   position: absolute;
-  background-color: #757575;
-  opacity: 0.4; }
+  background-color: #ffffff;
+  width: 308px;
+  height: 549px;
+  top: 110px;
+  left: 614px;
+  transform: rotateZ(5.2deg);
+}
 
 .displayOff {
   display: none; }
@@ -67,5 +78,3 @@ a:active {
   align-items: center;
   -webkit-justify-content: center;
   justify-content: center; }
-
-/*# sourceMappingURL=style.css.map */
