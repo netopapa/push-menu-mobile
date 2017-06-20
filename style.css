@@ -23,11 +23,11 @@ button {
 .pelicula {
   position: absolute;
   background-color: #ffffff;
-  width: 308px;
+  width: 309px;
   height: 549px;
   top: 110px;
-  left: 614px;
-  transform: rotateZ(5.2deg);
+  left: 613px;
+  transform: rotateZ(4.9deg);
 }
 
 .displayOff {
