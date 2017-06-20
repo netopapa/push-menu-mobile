@@ -2,12 +2,10 @@ html, body {
   height: 100%;
   margin: 0; }
 
-body {
-  display: flex;
-  justify-content: center;
-  background-color: #bdd5ef; }
-
 img {
+  position: absolute;
+  top: 0;
+  left: 109px;
   margin: 0 auto;
   height: 800px; }
 
